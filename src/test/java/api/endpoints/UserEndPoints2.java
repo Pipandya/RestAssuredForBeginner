@@ -6,7 +6,6 @@ import io.restassured.response.Response;
 
 import java.io.FileInputStream;
 import java.util.Properties;
-import java.util.ResourceBundle;
 
 import static io.restassured.RestAssured.given;
 

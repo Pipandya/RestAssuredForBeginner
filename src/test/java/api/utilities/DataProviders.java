@@ -15,7 +15,7 @@ public class DataProviders {
 
         System.out.println(rowNum);
         String apiData[][] = new String[rowNum][colNum];
-            for (int i = 1; i <=3; i++) {
+            for (int i = 1; i <=rowNum; i++) {
                 for (int j = 0; j < colNum; j++) {
                     apiData[i - 1][j] = ex.getCellData("UserInfo", i, j);
             }
